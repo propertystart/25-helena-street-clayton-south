@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-kitchenliving",
-      "name": "Kitchen/Living",
+      "id": "0-entrykitchen",
+      "name": "Entry/Kitchen",
       "levels": [
         {
           "tileSize": 256,
@@ -24,35 +24,29 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -2.960974762232688,
-        "pitch": -0.10660915649599367,
+        "yaw": -3.040984905012003,
+        "pitch": 0.11840291858812435,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -2.6689319220459033,
-          "pitch": 0.3891337670659567,
-          "rotation": 0,
+          "yaw": -2.7123337289182565,
+          "pitch": 0.32225879321097395,
+          "rotation": 5.497787143782138,
           "target": "4-back-yard"
         },
         {
-          "yaw": -1.7427780728031408,
-          "pitch": 0.2154907029767088,
+          "yaw": -2.7587084695947404,
+          "pitch": 0.0051540516595274255,
           "rotation": 0.7853981633974483,
-          "target": "3-bedroom-2"
-        },
-        {
-          "yaw": -2.746109550976339,
-          "pitch": 0.11943560537457287,
-          "rotation": 0,
-          "target": "1-master-bedroom"
+          "target": "1-master"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-master-bedroom",
-      "name": "Master Bedroom",
+      "id": "1-master",
+      "name": "Master",
       "levels": [
         {
           "tileSize": 256,
@@ -74,29 +68,16 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 2.7938107918267026,
-        "pitch": -0.0798313578584331,
+        "yaw": 2.206708287842985,
+        "pitch": 0.06799661527320211,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": -1.0056923869413765,
-          "pitch": 0.3143661747849773,
-          "rotation": 0,
-          "target": "2-master-ensuite"
-        },
-        {
-          "yaw": -2.563357497515053,
-          "pitch": 0.14075042467674237,
-          "rotation": 0,
-          "target": "0-kitchenliving"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "2-master-ensuite",
-      "name": "Master Ensuite",
+      "id": "2-master-en-suite",
+      "name": "Master En-suite",
       "levels": [
         {
           "tileSize": 256,
@@ -118,18 +99,11 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -0.18819584098870124,
-        "pitch": -0.022551110000961216,
+        "yaw": -0.20837094130953204,
+        "pitch": 0.08011720652473464,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": 0.8033596424147529,
-          "pitch": 0.09011371167442483,
-          "rotation": 1.5707963267948966,
-          "target": "1-master-bedroom"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
@@ -156,9 +130,9 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.924219558058926,
+        "pitch": -0.022675699801379068,
+        "fov": 1.3219339076578436
       },
       "linkHotspots": [],
       "infoHotspots": []
@@ -195,7 +169,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "25 Helena Street Clayton South",
+  "name": "25 Helena St Clayton South",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
